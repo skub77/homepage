@@ -1,26 +1,18 @@
 body {
-    background: #4aac1c;
+    background: #EDF5FC;
 }
 
-h1 {
-    color: navy;
+.mainHeader {
+   color: #272D2D;
 }
 
-h2{
-    color: #1460aa;
+.sectionHeader {
+    color: #B8C5D6;
 }
 
-p {
-    color: rgb(238, 169, 42);
+.thirdHeader{
+    color: #1A964E;
 }
-
-.mainHeader
-{
-font-size: 20px;
-}
-
-.wtorekHeader
-{
-    font-size: 18px;
-    background: #1460aa;
+link{
+    color: #A6B1E1;
 }
