@@ -1,0 +1,26 @@
+body {
+    background: #fefefe;
+}
+
+h1 {
+    color: navy;
+}
+
+h2{
+    color: #1460aa;
+}
+
+p {
+    color: rgb(238, 169, 42);
+}
+
+.mainHeader
+{
+font-size: 20px;
+}
+
+.wtorekHeader
+{
+    font-size: 18px;
+    background: #1460aa;
+}
