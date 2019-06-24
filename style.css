@@ -29,12 +29,12 @@ body {
 
 }
 
-.diary_paragraph{
+.day__paragraph{
 padding: 2px;
     
 }
 
-.diary__section--header{
+.day__header{
     color: #1A964E;
 }
 
