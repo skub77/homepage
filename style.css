@@ -38,10 +38,21 @@ padding: 2px;
     color: #1A964E;
 }
 
+.day__header--tuesday{
+    color: darkblue;
+}
 .header {
     color: #272D2D;
     padding-top: 50px;
     
+ }
+
+ .hobby{
+
+ }
+
+ .hobby__list{
+     list-style: none;
  }
 
  .main {
@@ -53,6 +64,24 @@ padding: 2px;
 }
 
 .navigation{
+
+
+}
+
+.navigation__list{
+
+    list-style: none;
+    padding: 0;
+   
+}
+
+.navigation__item{
+
+   display: inline;
+  
+}
+
+.site-header{
     width: 100%;
     position:fixed;
     top: 0;
@@ -64,6 +93,9 @@ padding: 2px;
     z-index: 2;
 }
 
+.table{
+    width: 100%;
+}
 .footer__top{
     position: fixed;
     bottom: 10px;
