@@ -1,4 +1,9 @@
-
+html{
+    box-sizing: border-box;
+}
+*,*:after,*:before{
+    box-sizing: inherit;
+}
 .about{
     overflow: hidden;
 }
@@ -21,7 +26,8 @@
 }
 
 body {
-    background: #EDF5FC;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(2,150,233,1) 23%, rgba(0,212,255,1) 100%);
 
 }
 
@@ -41,10 +47,15 @@ padding: 2px;
 .day__header--tuesday{
     color: darkblue;
 }
-.header {
+.header__title {
     color: #272D2D;
     padding-top: 50px;
     
+ }
+
+ .header__title--red{
+     color: darkred;
+     padding-top: 50px;
  }
 
  .hobby{
@@ -64,20 +75,26 @@ padding: 2px;
 }
 
 .navigation{
+    
 
 
 }
 
 .navigation__list{
 
+    display: flex;
+
+    justify-content: center;
     list-style: none;
     padding: 0;
+   
    
 }
 
 .navigation__item{
 
-   display: inline;
+    display: block;
+    margin-left: 8px;
   
 }
 
@@ -85,12 +102,12 @@ padding: 2px;
     width: 100%;
     position:fixed;
     top: 0;
-    left : 10px;
     box-sizing: border-box;
     padding: 10px;
     text-decoration: none;
     background: white;
     z-index: 2;
+    min-height: 42px;
 }
 
 .table{
@@ -101,4 +118,40 @@ padding: 2px;
     bottom: 10px;
     right: 20px;
     text-decoration: none;
+}
+
+@media(max-width: 640px){
+   
+
+    .navigation__list{
+        flex-direction: column;
+        display:none;
+    }
+
+    .navigation__list--visible{
+        display:flex;
+    }
+
+    .navigation__item{
+        margin-left: 16px;
+    }
+
+    .navigation__button{
+        border: none;
+        background: none;
+        position: absolute;
+        right: 16px;
+        top: 16px;
+    }
+   
+}
+
+@media(min-width: 641px){
+    .main{
+        max-width: 900px;
+    }
+
+    .navigation__button{
+        display:none;
+    }
 }
